@@ -1,0 +1,24 @@
+{
+  "name": "lamansky/random-password",
+  "description": "Uses cryptographically-secure randomization to generate a password of a given length from given sets of characters.",
+  "type": "library",
+  "homepage": "https://github.com/lamansky/random-password",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Fr. John Lamansky",
+      "homepage": "https://lamansky.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "lamansky/secure-shuffle": "^1"
+  },
+  "require-dev": {
+    "lamansky/phpcs": "^1",
+    "phpunit/phpunit": "^9"
+  },
+  "autoload": {
+    "psr-4": {"Lamansky\\RandomPassword\\": "src/"}
+  }
+}
